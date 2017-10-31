@@ -1,0 +1,23 @@
+{
+  "babel": {
+    "presets": [
+      [
+        "@babel/env",
+        {
+          "useBuiltIns": "usage",
+          "targets": {
+            "node": "8"
+          }
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "7.0.0-beta.5",
+    "@babel/core": "7.0.0-beta.5",
+    "@babel/preset-env": "7.0.0-beta.5"
+  },
+  "scripts": {
+    "build": "babel index.js"
+  }
+}
